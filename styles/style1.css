@@ -17,6 +17,7 @@ body {
   background: black;
   color: white;
   margin: 0px;
+  padding-bottom: 30px;
 }
 
 #img-detalle {
@@ -210,6 +211,16 @@ footer {
   display: none;
 }
 
+.listSimilares{
+    display: flex;
+    flex-direction:row;
+    overflow-x: scroll;
+    margin-top: 7vw;
+}
+
+.listSimilares img {
+  margin: 2vw 2vw;
+}
 
 @media (min-width: 600px) {
   .descripcion {
