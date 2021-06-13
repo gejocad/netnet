@@ -1,4 +1,19 @@
+@font-face {
+    font-family: "netnet";
+    src: url("../fonts/AvenirNextLTPro-Regular.otf");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "netnet";
+    src: url("../fonts/AvenirNextLTPro-Bold.otf");
+    font-weight: 700;
+    font-style: normal;
+  }
+
 body {
+    font-family: "netnet";
     background-color: #0e0e0e;
     color:#c4c4c4;
     width: 100vw;
@@ -101,7 +116,6 @@ main {
     margin-top: 7vw;
 }
 .listPopulares img, .listAnime img, .listSeries img {
-    width: 30%;
     margin: 2vw 2vw;
 }
 footer {
