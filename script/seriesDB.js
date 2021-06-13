@@ -2,7 +2,7 @@ let seriesDB = [
     {
         id:  0,
         nombre: "Breaking bad",
-        imagen: "imagenes/covers/1.jpg",
+        imagen: "imagenes/series/1.jpg",
         coincidencia: "99% de coincidencia",
         año: 2008,
         duracion: "46h 30m",
@@ -14,7 +14,7 @@ let seriesDB = [
     {
         id:  1,
         nombre: "Arrow",
-        imagen: "imagenes/covers/2.jpg",
+        imagen: "imagenes/series/2.jpg",
         coincidencia: "99% de coincidencia",
         año: 2012,
         duracion: "119 h",
@@ -26,7 +26,7 @@ let seriesDB = [
     {
         id:  2,
         nombre: "El chapo",
-        imagen: "imagenes/covers/3.jpg",
+        imagen: "imagenes/series/3.jpg",
         coincidencia: "99% de coincidencia",
         año: 2017,
         duracion: "28 h",
@@ -38,7 +38,7 @@ let seriesDB = [
     {
         id:  3,
         nombre: "Narcos",
-        imagen: "imagenes/covers/4.jpg",
+        imagen: "imagenes/series/4.jpg",
         coincidencia: "99% de coincidencia",
         año: 2015,
         duracion: "27 h",

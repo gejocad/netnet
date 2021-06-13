@@ -2,7 +2,7 @@ let animeDB = [
     {
         id:  0,
         nombre: "Naruto",
-        imagen: "images/populares/1.png",
+        imagen: "imagenes/anime/1.jpg",
         coincidencia: "99% de coincidencia",
         año: 2003,
         duracion: "166 h",
@@ -15,7 +15,7 @@ let animeDB = [
     {
         id:  1,
         nombre: "Pokemón",
-        imagen: "images/populares/1.png",
+        imagen: "imagenes/anime/2.jpg",
         coincidencia: "99% de coincidencia",
         año: 1997,
         duracion: "170 h",
@@ -28,7 +28,7 @@ let animeDB = [
     {
         id:  2,
         nombre: "Caballeros del zodiaco",
-        imagen: "images/populares/1.png",
+        imagen: "imagenes/anime/3.jpg",
         coincidencia: "99% de coincidencia",
         año: 1985,
         duracion: "44 h",
@@ -40,7 +40,7 @@ let animeDB = [
     {
         id:  3,
         nombre: "One piece",
-        imagen: "images/populares/1.png",
+        imagen: "imagenes/anime/4.jpg",
         coincidencia: "99% de coincidencia",
         año: 1999,
         duracion: "350 h",

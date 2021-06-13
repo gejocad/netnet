@@ -29,7 +29,7 @@ let popularesDB = [
         año: 2012,
         duracion: "2h 33m",
         descripcion: "La investigación de Peter Parker para resolver la desaparición de sus padres lo coloca en el camino de un choque con el alter ego mortal de un científico conocido como el Lagarto.",
-        elenco: "Chris zylka, Annie parisse, C. Thomas Howell, Miles Elliot, Charlie Depew, Max Charles, Kevin Mccorkle, Barbara Eve Harris, Tom Waite.",
+        elenco: "Chris zylka, Annie pe, C. Thomas Howell, Miles Elliot, Charlie Depew, Max Charles, Kevin Mccorkle, Barbara Eve Harris, Tom Waite.",
         director: "Marc Webb.",
         
     },

@@ -14,8 +14,17 @@ header {
     margin-top: -8px;
     position: absolute;
 }
+.card-img {
+    height: 250px;
+    width: 156px;
+    border-radius: 1px;
+    border: none;
+    margin-bottom: 1px;
+    border: 1px solid rgba(0, 0, 0, .125);
+}
 
 #logo {
+
     background: linear-gradient(to top,rgba(46, 45, 45, 0.753) 0,rgba(21, 21, 21, 0.878) 60%,rgb(14, 14, 14) 100%);
     width:102vw;
 }
@@ -85,13 +94,13 @@ main {
     margin-left: 3.5vw;
     font-size: 5vw;
 }
-#contenido div {
+.listPopulares, .listAnime, .listSeries {
     display: flex;
     flex-direction:row;
     overflow-x: scroll;
     margin-top: 7vw;
 }
-#contenido div img {
+.listPopulares img, .listAnime img, .listSeries img {
     width: 30%;
     margin: 2vw 2vw;
 }
