@@ -2,6 +2,8 @@ import popularesDB from './popularesDB.js';
 import animeDB from './animeDB.js';
 import seriesDB from './seriesDB.js';
 
+
+
 let id = localStorage.getItem("pelId");
 mostrarPeli(id)
 
@@ -49,6 +51,7 @@ function mostrarPeli(id) {
     duracion.innerHTML +=`
     <li class="liR">R</li>
     <li class="minDetalle" style="margin-left: 15px;margin-right: 8px;">${pelId.duracion}</li>
+    <li class="liHD"><img  src="./imagenes/HD.png" alt=""></li>
     `
     descripcion.innerHTML +=`
     <div class="descripcion">${pelId.descripcion}</div>

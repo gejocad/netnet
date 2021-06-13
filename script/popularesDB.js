@@ -30,7 +30,7 @@ let popularesDB = [
         duracion: "2h 33m",
         descripcion: "La insólita amistad entre el adolescente vikingo Hipo y su fiel compañero dragón, el Furia Nocturna Desdentao, llega a su fin. En esta nueva aventura descubrirán finalmente sus destinos. Mientras el joven gobernante del poblado vikingo de Berk cumple su sueño de crear un mundo utópico en el que los dragones vivan en paz, con ayuda de su compañera Astrid (America Ferrera), el Furia Nocturna será el líder de su propia especie. Además, la aparición de una salvaje y escurridiza dragona, una Furia Luminosa, pondrá a prueba los lazos de su relación como nunca antes. Claro que, cuando la amenaza más oscura a la que se han enfrentado ponga en peligro a sus respectivos clanes, ambos, dragón y vikingo, deberán llevar a cabo decisiones imposibles para salvar a los suyos.",
         elenco: "Jay Baruchel, America Ferrera, F. Murray Abraham.",
-        
+        director: "Dean DeBlois.",
     },
     {
         id:  3,
@@ -42,7 +42,6 @@ let popularesDB = [
         descripcion: "La investigación de Peter Parker para resolver la desaparición de sus padres lo coloca en el camino de un choque con el alter ego mortal de un científico conocido como el Lagarto.",
         elenco: "Chris zylka, Annie pe, C. Thomas Howell, Miles Elliot, Charlie Depew, Max Charles, Kevin Mccorkle, Barbara Eve Harris, Tom Waite.",
         director: "Marc Webb.",
-        director: "Dean DeBlois.",
         
     }
 ]
