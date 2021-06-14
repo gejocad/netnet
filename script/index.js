@@ -14,7 +14,7 @@ function mostrarPopulares(){
         listPopulares.innerHTML += `
                 <a href="pel.html" class="">
                     <div class="" id="pel${item.id}" data-pel=${item.id}>                
-                        <img src="${item.imagen}" class="card-img imagenes" alt="...">
+                        <img src="${item.imagen}" class="card-img" alt="...">
                     </div>
                 </a>
                 `
