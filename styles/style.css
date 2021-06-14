@@ -1,5 +1,28 @@
+@font-face {
+    font-family: "netnet";
+    src: url("../fonts/AvenirNextLTPro-Regular.otf");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "netnet";
+    src: url("../fonts/AvenirNextLTPro-Bold.otf");
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  a{
+    color:#c4c4c4;
+    font-size:4vw !important;
+  }
+  a:hover {
+      color: #fff;
+  }
+
 body {
-    background-color: #0e0e0e;
+    font-family: "netnet";
+    background-color: #000000;
     color:#c4c4c4;
     width: 100vw;
     max-width: 100%;
@@ -11,33 +34,66 @@ header {
     height: fit-content;
     flex-direction: column;
     margin-left: -8px;
-    margin-top: -8px;
     position: absolute;
+    height: 50vh;
 }
+
+header div {
+    margin: 10px 0px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 0;
+    margin-top:20px;
+}
+
 .card-img {
     height: 250px;
     width: 156px;
-    border-radius: 1px;
     border: none;
     margin-bottom: 1px;
     border: 1px solid rgba(0, 0, 0, .125);
 }
 
-#logo {
+#wrapper
+{
+	text-align: center;
+	width: 500px;
+	margin: auto;
+}
 
-    background: linear-gradient(to top,rgba(46, 45, 45, 0.753) 0,rgba(21, 21, 21, 0.878) 60%,rgb(14, 14, 14) 100%);
-    width:102vw;
+
+#style-1::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+
+#logo {
+    background: linear-gradient(to bottom,#000000 0,rgba(22, 22, 22, 0.953) 30%,rgba(0, 0, 0, 0) 100%);
+    width: 100%;
+    box-sizing: border-box;
+    height: 30vh;
+    padding: 0;
 }
 
 #logo img {
-    width: 25%;
+    width: 30%;
     margin-bottom: -18px;
     margin-top: -15px;
 }
 
 #menu {
-    width: 102%;
+    width: 100%;
+    box-sizing: border-box;
     margin-top: -8px;
+    top: 8vh;
+    position: absolute;
 }
 
 #menu ul {
@@ -46,7 +102,7 @@ header {
     list-style: none;
     justify-content: space-evenly;
     padding: 0;
-    font-size: 4vw;
+    font-size: 4vw !important;
 }
 
 #menu ul li:hover {
@@ -55,23 +111,27 @@ header {
 main {
     width: 100%;
     margin-bottom: 10vw;
+    
 }
 #slider {
-    width:102%;
+    width:100%;
     margin-left: -9px;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
 }
 #slider img {
+    box-sizing: border-box;
     width: 100%;
     height: 100%;
     margin-bottom: 20px;
 }
 
 #slider-content {
+    width: 100%;
     margin-top: -170px;
     position: relative;
-    background: linear-gradient(to top,#0e0e0e 0,rgba(22, 22, 22, 0.953) 50%,rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to top,#000000 0,rgba(22, 22, 22, 0.953) 50%,rgba(0, 0, 0, 0) 100%);
 }
 #actions {
     display: flex;
@@ -84,7 +144,23 @@ main {
     max-height: 3rem;
     position: static;
 }
-/*#reproducir:hover{}*/
+
+#reproducir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vw;
+    margin-bottom: 20px;
+}
+
+#reproducir:hover {
+background-color: rgb(201, 200, 200);
+}
+
+#reproducir img {
+    margin: 0px;
+}
+
 #contenido {
     display: flex;
     flex-direction: column;
@@ -101,9 +177,14 @@ main {
     margin-top: 7vw;
 }
 .listPopulares img, .listAnime img, .listSeries img {
-    width: 30%;
     margin: 2vw 2vw;
 }
+
+.force-overflow
+{
+	min-height: 450px;
+}
+
 footer {
     display: flex;
     position: fixed;
@@ -118,4 +199,69 @@ footer {
     height: 6%;
 }
 
+@media (min-width: 540px) and (max-width: 1024px) {
+  
+    #menu {
+        top: 13vh;
+    }
+    
+}
+
+@media (min-width: 1025px){
+  
+    footer {
+        display: none;
+    }
+    #menu {
+        top: 0px;
+        margin-top: 0px;
+    }
+    #menu ul {
+        justify-content: flex-end;
+    }
+    #menu ul li {
+        padding: 10px;
+        margin: initial 20px !important;
+    }
+    a{
+        font-size: 30px !important;
+    }
+    #logo {
+        background:#0e0e0e;
+        height: 15vh;
+        position: fixed;
+        flex-direction: row;
+        top: 0;
+        z-index: 1000;
+    }
+    main {
+        margin: 113px auto 0px auto;
+    }
+    #slider {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #contenido {
+        align-items: center;
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+        weight: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .headerito {
+        margin: 0px;
+        position: relative;
+        height: 2vh;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .listPopulares, .listAnime, .listSeries {
+        overflow-x: auto;
+        border-radius: 10px;
+    }
+
+
+}
 
