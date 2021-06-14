@@ -56,27 +56,13 @@ header {
     border: 1px solid rgba(0, 0, 0, .125);
 }
 
-#wrapper
-{
-	text-align: center;
-	width: 500px;
-	margin: auto;
-}
-
-
-#style-1::-webkit-scrollbar
-{
-	width: 12px;
-	background-color: #F5F5F5;
-}
-
 
 #logo {
-    position: absolute;
+    position:fixed;
     box-shadow: inset 0px 180px 70px -30px #000000;
     height: 330px;
     width:100%;
-   z-index: logo; 
+   z-index: 1; 
 }
 
 #logo img {
@@ -110,8 +96,9 @@ main {
 #slider {
     width:102%;
     margin-left: -9px;
-    display: flex;
+    display: ;
     flex-direction: column;
+    z
 }
 #slider img {
     width: 100%;
