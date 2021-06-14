@@ -5,18 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NetNet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
-        <div id="logo">
+    <header class="container-fluid" id="logo">
+        <div>
             <img src="imagenes/NetNetLogo.png" alt="">
         </div>
-        <div id="menu"> <ul>
-            <li>Series</li>
-            <li>Peliculas</li>
-            <li>Mi Lista</li>
-        </ul></div>
+        <div class="" id="menu"> 
+        <ul class="nav">
+            <li class="nav-item">
+                 <a class="navbar-brand" href="">Series</a>
+            </li>
+            <li class="nav-item">
+                <a class="navbar-brand" href="">Peliculas</a>
+            </li>
+            <li class="nav-item">                
+                <a class="navbar-brand" href="lista.html">Mi lista</a>
+            </li>
+        </ul>
+    </div>
     </header>
     <main>
         <section id="slider">
@@ -26,21 +35,21 @@
                 <img src="imagenes/image 4@2x.png" alt="">
                 <div id="actions">
                     <img src="imagenes/list.svg" alt="">
-                    <img id="reproducir" src="imagenes/button.svg" alt="">
+                    <button id="reproducir"><img src="imagenes/icons/play.svg" alt=""> Reproducir</button>
                     <img src="imagenes/info.svg" alt="">
                 </div>
             </div>
         </section>
         <section id="contenido">
-            <div class="headers"><header>Populares en NetNet</header></div>
+            <div class="headers"><header class="headerito">Populares en NetNet</header></div>
             <div class="listPopulares">
 
             </div>
-            <div class="headers "><header>Anime</header></div>
+            <div class="headers "><header class="headerito">Anime</header></div>
             <div class="listAnime">
 
             </div>
-            <div class="headers"><header>Series</header></div>
+            <div class="headers"><header class="headerito">Series</header></div>
             <div class="listSeries">
 
             </div>
@@ -48,11 +57,14 @@
         </section>
     </main>
     <footer>
-        <img src="imagenes/footer/home.svg" alt="">
+        <a href="index.html">
+            <img src="imagenes/footer/home.svg" alt="">
+        </a>
         <img src="imagenes/footer/home (1).svg" alt="">
         <img src="imagenes/footer/home (2).svg" alt="">
         <img src="imagenes/footer/home (3).svg" alt="">
     </footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 <script type="module" src="script/index.js"></script>
 </html>
