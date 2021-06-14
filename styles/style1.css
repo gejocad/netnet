@@ -35,6 +35,14 @@ body {
   font-size: 28px;
 }
 
+.back{
+  transform: translateY(13px);
+  padding-left: 10px;
+  padding-bottom: 10px;
+  height: 45px;
+  width: 45px;
+}
+
 .destacado {
   margin-left: 10px;
   margin-right: 10px;
