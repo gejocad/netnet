@@ -96,9 +96,9 @@ main {
 #slider {
     width:102%;
     margin-left: -9px;
-    display: ;
+    display: flex;
     flex-direction: column;
-    z
+    
 }
 #slider img {
     width: 100%;
