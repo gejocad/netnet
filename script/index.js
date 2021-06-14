@@ -23,18 +23,22 @@ function mostrarPopulares(){
     });
 
   
-    localStorage.setItem("categoria", "populares")
+    
         
         document.querySelector("#pel0").addEventListener('click', function () {
+            localStorage.setItem("categoria", "populares")
             localStorage.setItem("pelId", 0)
         })
         document.querySelector("#pel1").addEventListener('click', function () {
+            localStorage.setItem("categoria", "populares")
             localStorage.setItem("pelId", 1)
         })
         document.querySelector("#pel2").addEventListener('click', function () {
+            localStorage.setItem("categoria", "populares")
             localStorage.setItem("pelId", 2)
         })
         document.querySelector("#pel3").addEventListener('click', function () {
+            localStorage.setItem("categoria", "populares")
             localStorage.setItem("pelId", 3)
         }) 
        

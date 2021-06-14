@@ -218,13 +218,19 @@ footer {
     }
     #menu ul {
         justify-content: flex-end;
+        margin-top: -10px;
     }
     #menu ul li {
         padding: 10px;
-        margin: initial 20px !important;
+        margin: 0px 20px 0px 20px !important;
+        padding-bottom: 20px;
+        box-sizing: border-box;
     }
     a{
         font-size: 30px !important;
+    }
+    #logoimagen {
+        margin-top: -5px;
     }
     #logo {
         background:#0e0e0e;
@@ -242,24 +248,28 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
+    #reproducir {
+        font-size: 15px;
+    }
     #contenido {
         align-items: center;
         margin-top: 10vh;
         margin-bottom: 5vh;
-        weight: 80%;
         margin-left: auto;
         margin-right: auto;
     }
     .headerito {
-        margin: 0px;
+        margin-bottom: -20px;
         position: relative;
         height: 2vh;
         font-size: 40px;
         font-weight: bold;
+        width: 450px;
+        text-align: center;
     }
     .listPopulares, .listAnime, .listSeries {
         overflow-x: auto;
-        border-radius: 10px;
+    
     }
 
 

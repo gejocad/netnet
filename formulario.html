@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="styles/form.css" class="css">
+</head>
+<body>
+  <!---Logo netnet-->
+  <div id="log">
+    <span class="log"></span>
+  </div>
+
+  <section id="contenedor">
+  <header>Promo "Todo x4mil"</header>
+  <form id="form">  
+
+      <label for="Cantidad">Cantidad</label>
+      <input id="cant" type="number" placeholder="Ingresa cantidad" oninput="comprar()" required></input>
+    
+      <label for="name">Nombre</label>
+      <input type="text" id="name" placeholder="Ingresa tu nombre" required>
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Ingresa tu email favorito" required>
+
+      <label for="tcredito"></label>
+      <textarea id="mensaje" readonly></textarea>
+      <br>
+      
+     <a href="gracias.html"><button id="button" type="submit">Continuar</button></a>
+    
+
+</form>
+</section>
+
+
+
+<script src="script/formulario.js"></script>
+
+  
+</body>
+</html>
