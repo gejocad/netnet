@@ -9,24 +9,13 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header class="d-flex container-fluid" id="logo">
-        <div >
-            <img src="imagenes/NetNetLogo.png" alt="">
-        </div>
-        <div class="" id="menu"> 
-        <ul class="nav">
-            <li class="nav-item">
-                 <a class="navbar-brand" href="">Series</a>
-            </li>
-            <li class="nav-item">
-                <a class="navbar-brand" href="">Peliculas</a>
-            </li>
-            <li class="nav-item">                
-                <a class="navbar-brand" href="lista.html">Mi lista</a>
-            </li>
-        </ul>
-    </div>
-    </header>
+    <header class="container-fluid mt-3 mb-2">
+        <nav class="navbar">
+        <a href="index.html">
+          <img class="back" src="./imagenes/back.svg" alt="">
+        </a>
+        </nav>
+      </header>
     <main>
         <section id="slider">
             <div>
@@ -40,11 +29,10 @@
             </div>
         </section>
         <section class="" id="contenido">
-        </br></br></br></br></br>
-            <div class="headers"><header>Busqueda</header></div>
+        </br>
+            <div class="buscar"><header>Busqueda</header></div>
             <form class="fixed-bottom mb-5 form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="buscar" aria-label="buscar">
-                <a href="buscar.html"><img align="right" src="imagenes/search.png" alt=""></a>
             </form>
             
             
@@ -66,5 +54,4 @@
     </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-<script type="module" src="script/index.js"></script>
 </html>

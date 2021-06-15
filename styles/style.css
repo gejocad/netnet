@@ -112,12 +112,15 @@ main {
 }
 
 .form-control{
-    width: 88%;
+    transform: translateY(-25px);
+    align-items: center;
+    width: 97%;
     position: fixed;
     margin-left: 5px;
 }
 
 #slider-content {
+    
     margin-top: -170px;
     position: relative;
     background: linear-gradient(to top,#0e0e0e 0,rgba(22, 22, 22, 0.953) 50%,rgba(0, 0, 0, 0) 100%);
@@ -140,7 +143,13 @@ main {
     justify-content: space-evenly;
 }
 .headers {
-    margin-left: 3.5vw;
+    margin-left: 13.5vw;
+    font-size: 5vw;
+}
+
+.buscar{
+    margin-top: 5px;
+    margin-left: 12.5vw;
     font-size: 5vw;
 }
 .listPopulares, .listAnime, .listSeries {
@@ -159,6 +168,7 @@ main {
 }
 
 footer {
+    padding-top: 3px;
     display: flex;
     position: fixed;
     flex-direction:row;
